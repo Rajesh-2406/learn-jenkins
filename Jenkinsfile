@@ -1,4 +1,6 @@
 pipeline {
+
+
     agent { node { label 'workstation' } }
 
     stages {
