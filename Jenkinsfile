@@ -6,7 +6,7 @@ pipeline {
        SSH = credentials('SSH')
  }
 
- triggers { pollscm('H/2 * * *') }
+ triggers { pollSCM('H/2 * * *') }
 
     stages {
         stage('Hello1') {
