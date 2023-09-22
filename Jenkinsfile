@@ -3,7 +3,7 @@ pipeline {
  agent { node { label 'workstation' } }
 
  environment {
- SSH = credentials{'SSH'}
+       SSH = credentials{'SSH'}
  }
  options {
       ansicolor{ 'xterm' }
