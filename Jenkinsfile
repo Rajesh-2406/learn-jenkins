@@ -5,9 +5,7 @@ pipeline {
  environment {
        SSH = credentials('SSH')
  }
- options {
-      ansiColor('xterm')
- }
+
  triggers {pollscm('H/2 * * *') }
 
     stages {
